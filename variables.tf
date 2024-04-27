@@ -11,6 +11,6 @@ variable "resource_group_name" {
 variable "subscription_id" {
   type    = string
   # Optionally specify a default value if applicable
-  default = "YOUR_SUBSCRIPTION_ID_HERE"
+  default = "9254a512-e00d-4bf0-9dcf-fe676789e34a"
 }
 // Define other variables as needed
