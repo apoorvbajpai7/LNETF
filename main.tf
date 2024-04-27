@@ -3,6 +3,11 @@
 # Azure provider configuration
 provider "azurerm" {
   features {}
+
+  version = "~> 2.0"  # Specify the Azure provider version
+
+  # Specify tenant_id if needed
+  # tenant_id = "d032994e-e52c-4d44-bc79-9fd88e88ad02"
 }
 
 # Azure Container Registry
