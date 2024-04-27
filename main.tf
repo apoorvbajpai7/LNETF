@@ -7,6 +7,7 @@ provider "azurerm" {
   version = "~> 2.0"  # Specify the Azure provider version
 
   # Specify tenant_id if needed
+  subscription_id = "9254a512-e00d-4bf0-9dcf-fe676789e34a"
   # tenant_id = "d032994e-e52c-4d44-bc79-9fd88e88ad02"
 }
 
